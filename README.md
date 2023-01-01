@@ -27,7 +27,7 @@ GIT config (nickname, e-mail):
 
 To initialize your local repository use:
 ---------------------------------------
-    cd ~/Sosp-OS
+    cd ~/PRAOSP
     repo init -u https://github.com/HeroRickyGAMES/PRAOSP-MANIFEST.git -b praosp-13
 
 Then to sync up:
@@ -49,5 +49,5 @@ You can also enable the optional ccache compression. While this may involve a sl
 Start the build :
 -----------------
     source build/envsetup.sh
-    lunch sosp_devicecodename-userdebug
+    lunch praosp_devicecodename-userdebug
     make -j8 otapackage
